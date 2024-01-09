@@ -1,0 +1,7 @@
+# .rubocop.yml
+
+AllCops:
+  Exclude:
+    - 'bin/**/*' # Ignore the entire bin directory
+    - 'bin/bundle' # Ignore the bundle file inside bin
+    - 'config/*'
