@@ -6,19 +6,8 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
-
-* System dependencies
-
-* Configuration
+ruby-3.1.0
 
 * Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Added environemnt variable 'DATABASE_NAME' and run 'rails db:create and migrate'
+ ...
