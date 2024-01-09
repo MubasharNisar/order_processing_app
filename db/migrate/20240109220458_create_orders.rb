@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# db/migrate/20240109220458_create_orders.rb
 class CreateOrders < ActiveRecord::Migration[7.0]
   def change
     create_table :orders do |t|
